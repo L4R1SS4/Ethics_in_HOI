@@ -1,0 +1,369 @@
+{
+  "images_analyzed": 955,
+  "images_with_interactions": 664,
+  "images_with_2plus_people_interacting": 123,
+  "people_with_interactions": 914,
+  "people_with_2plus_distinct_interactions": 523,
+  "top_interactions": [
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "skateboard",
+      "images": 47
+    },
+    {
+      "person": "person",
+      "action": "stand_on",
+      "object": "skateboard",
+      "images": 38
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "boat",
+      "images": 32
+    },
+    {
+      "person": "person",
+      "action": "jump",
+      "object": "skateboard",
+      "images": 29
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "horse",
+      "images": 29
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "umbrella",
+      "images": 27
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "bench",
+      "images": 27
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "bicycle",
+      "images": 26
+    },
+    {
+      "person": "person",
+      "action": "straddle",
+      "object": "horse",
+      "images": 26
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "motorcycle",
+      "images": 25
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "boat",
+      "images": 24
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "motorcycle",
+      "images": 24
+    },
+    {
+      "person": "person",
+      "action": "straddle",
+      "object": "motorcycle",
+      "images": 24
+    },
+    {
+      "person": "person",
+      "action": "straddle",
+      "object": "bicycle",
+      "images": 23
+    },
+    {
+      "person": "person",
+      "action": "stand_under",
+      "object": "umbrella",
+      "images": 22
+    },
+    {
+      "person": "person",
+      "action": "carry",
+      "object": "umbrella",
+      "images": 21
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "horse",
+      "images": 20
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "motorcycle",
+      "images": 20
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "baseball bat",
+      "images": 19
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "bicycle",
+      "images": 19
+    },
+    {
+      "person": "person",
+      "action": "sit_at",
+      "object": "dining table",
+      "images": 19
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "bicycle",
+      "images": 19
+    },
+    {
+      "person": "person",
+      "action": "wear",
+      "object": "skis",
+      "images": 18
+    },
+    {
+      "person": "person",
+      "action": "wield",
+      "object": "baseball bat",
+      "images": 18
+    },
+    {
+      "person": "person",
+      "action": "carry",
+      "object": "backpack",
+      "images": 17
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "couch",
+      "images": 17
+    },
+    {
+      "person": "person",
+      "action": "wear",
+      "object": "backpack",
+      "images": 17
+    },
+    {
+      "person": "person",
+      "action": "stand_on",
+      "object": "skis",
+      "images": 16
+    },
+    {
+      "person": "person",
+      "action": "flip",
+      "object": "skateboard",
+      "images": 15
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "snowboard",
+      "images": 15
+    },
+    {
+      "person": "person",
+      "action": "sit_on",
+      "object": "chair",
+      "images": 15
+    },
+    {
+      "person": "person",
+      "action": "stand_on",
+      "object": "snowboard",
+      "images": 15
+    },
+    {
+      "person": "person",
+      "action": "wear",
+      "object": "snowboard",
+      "images": 15
+    },
+    {
+      "person": "person",
+      "action": "eat_at",
+      "object": "dining table",
+      "images": 13
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "skis",
+      "images": 13
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "kite",
+      "images": 12
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "tennis racket",
+      "images": 11
+    },
+    {
+      "person": "person",
+      "action": "read",
+      "object": "laptop",
+      "images": 11
+    },
+    {
+      "person": "person",
+      "action": "wear",
+      "object": "tie",
+      "images": 11
+    },
+    {
+      "person": "person",
+      "action": "fly",
+      "object": "kite",
+      "images": 10
+    },
+    {
+      "person": "person",
+      "action": "jump",
+      "object": "snowboard",
+      "images": 10
+    },
+    {
+      "person": "person",
+      "action": "swing",
+      "object": "baseball bat",
+      "images": 10
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "book",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "bottle",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "cell phone",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "knife",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "toothbrush",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "race",
+      "object": "motorcycle",
+      "images": 9
+    },
+    {
+      "person": "person",
+      "action": "brush_with",
+      "object": "toothbrush",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "carry",
+      "object": "tennis racket",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "hold",
+      "object": "skateboard",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "open",
+      "object": "book",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "read",
+      "object": "book",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "ride",
+      "object": "car",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "run",
+      "object": "horse",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "stand_on",
+      "object": "boat",
+      "images": 8
+    },
+    {
+      "person": "person",
+      "action": "blow",
+      "object": "cake",
+      "images": 7
+    },
+    {
+      "person": "person",
+      "action": "catch",
+      "object": "frisbee",
+      "images": 7
+    },
+    {
+      "person": "person",
+      "action": "grind",
+      "object": "skateboard",
+      "images": 7
+    },
+    {
+      "person": "person",
+      "action": "kick",
+      "object": "sports ball",
+      "images": 7
+    }
+  ]
+}
