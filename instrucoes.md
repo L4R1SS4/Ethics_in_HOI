@@ -1,23 +1,19 @@
-# Sequência de códigos para executar o HOTR em CPU, na presença de GPU Nvidia, acessar o repositório oficial para execução com "conda"
+## Sequência de códigos para executar o HOTR em CPU, na presença de GPU Nvidia, acessar o repositório oficial para execução com "conda"
 
-#   Informações do notebook
-#   - Intel Core i5-1334U
-#   - 12 CPUs lógicas
-#   - 16 GB de RAM
-#   - ~12 GB disponíveis
-#   - 4 GB de swap
-#   - sem NVIDIA/CUDA
+- Informações do notebook
+- Intel Core i5-1334U
+- 12 CPUs lógicas
+- 16 GB de RAM
+- ~12 GB disponíveis
+- 4 GB de swap
+- sem NVIDIA/CUDA
 
-#####################################################################################################################################
-
-# Clonar o projeto do GitHub
+## Clonar o projeto do GitHub
 
 git clone https://github.com/kakaobrain/hotr.git
 cd hotr
 
-#####################################################################################################################################
-
-# Instalar Miniconda
+## Instalar Miniconda
 
 cd ~/Downloads
 
@@ -27,19 +23,17 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 ./Miniconda3-latest-Linux-x86_64.sh
 
-# Durante a instalação:
-#   - pressione Enter para avançar pelo contrato;
-#   - digite yes quando perguntar se aceita os termos;
-#   - quando perguntar o diretório de instalação, pode simplesmente pressionar Enter para usar o padrão (~/miniconda3);
-#   - quando perguntar se deseja inicializar o Conda, responda yes.
+## Durante a instalação:
+- pressione Enter para avançar pelo contrato;
+- digite yes quando perguntar se aceita os termos;
+- quando perguntar o diretório de instalação, pode simplesmente pressionar Enter para usar o padrão (~/miniconda3);
+- quando perguntar se deseja inicializar o Conda, responda yes.
 
-~/miniconda3/bin/conda init bash ## pode não ser necessário ##
+~/miniconda3/bin/conda init bash #### pode não ser necessário ####
 
 source ~/.bashrc
 
-#####################################################################################################################################
-
-# Criar ambiente do HOTR
+## Criar ambiente do HOTR
 
 conda create -n kakaobrain python=3.7 -y
 
@@ -51,9 +45,7 @@ conda install cython scipy -y
 
 pip install pycocotools opencv-python wandb networkx
 
-#####################################################################################################################################
-
-# Baixar Dataset HICO-DET
+## Baixar Dataset HICO-DET
 
 Colar o seguinte link no navegador: https://drive.google.com/open?id=1dUByzVzM6z1Oq4gENa1-t0FLhr0UtDaS
 
@@ -63,15 +55,13 @@ Mover o arquivo compactado para hotr/
 
 Descompactar "hico_20160224_det"
 
-##
+####
 
 Fazer o download da pasta "annotations" e do arquivo "list_action.txt" dispoíveis nesse repositório
 
 Colocá-las no caminho hotr/hico_20160224_det/
 
-#####################################################################################################################################
-
-# Baixar checkpoint
+## Baixar checkpoint
 
 Colar o seguinte link no navegador: https://arena.kakaocdn.net/brainrepo/hotr/hico_ft_q16.pth
 
@@ -83,9 +73,7 @@ Criar a pasta "hico_det"
 
 Mover os arquivos baixados para hotr/hico_det
 
-#####################################################################################################################################
-
-# Configuração opcional - para controlar a quantidade de saída(?)
+## Configuração opcional - para controlar a quantidade de saída(?)
 
 Caso o processo se demonstre lento, por se tratarem de 9,5k anotações, uma sugestão é limitar essa quantidade
 
@@ -93,17 +81,13 @@ Uma sugestão está no arquivo "hico.py" disponível nesse repositório
 
 Baixá-lo e substituir: hotr/hotr/data/datasets/hico.py
 
-#####################################################################################################################################
-
-# Configuração para salvar o arquivo de saída
+## Configuração para salvar o arquivo de saída
 
 Baixar o arquivo "evaluator_hico.py" disponível nesse repositório
 
 Substituir: hort/hotr/engine/evaluator_hico.py"
 
-#####################################################################################################################################
-
-# Executar o projeto
+## Executar o projeto
 
 python main.py \
     --device cpu \
@@ -121,21 +105,15 @@ python main.py \
     --data_path hico_20160224_det \
     --resume hico_det/hico_ft_q16.pth
 
-#####################################################################################################################################
-
-# Geração dos triplets
+## Geração dos triplets
 
 python predictions_to_triplets.py
 
-#####################################################################################################################################
-
-# Geração do grafo
+## Geração do grafo
 
 python build_graph.py
 
-#####################################################################################################################################
-
-# Geração da imagem (opcional)
+## Geração da imagem (opcional)
 
 python visualize_hoi.py ID
 
